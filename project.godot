@@ -17,8 +17,14 @@ config/icon="res://icon.svg"
 
 [display]
 
-window/size/viewport_width=1024.0
-window/size/viewport_height=680.0
+window/size/viewport_width=1280.0
+window/size/viewport_height=800.0
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="Lattice"
 
 [physics]
 

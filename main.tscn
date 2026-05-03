@@ -1,35 +1,8 @@
 [gd_scene format=3 uid="uid://bdvkhbrp63lw7"]
 
-[ext_resource type="Script" uid="uid://cblqqd0x34o3d" path="res://main.gd" id="1_main"]
+[ext_resource type="Script" uid="uid://bdrfyl176dcjc" path="res://main.gd" id="1_main"]
 
-[node name="Main" type="Node2D" unique_id=1814528125]
+[node name="Main" type="Node2D" unique_id=1149984278]
 script = ExtResource("1_main")
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1648137501]
-position = Vector2(512, 320)
-
-[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=489262680]
-
-[node name="HUD" type="Label" parent="CanvasLayer" unique_id=672205431]
-offset_left = 16.0
-offset_top = 12.0
-offset_right = 1008.0
-offset_bottom = 36.0
-text = "LIVES  20     GOLD  150     WAVE  0"
-
-[node name="Hint" type="Label" parent="CanvasLayer" unique_id=588698131]
-offset_left = 16.0
-offset_top = 644.0
-offset_right = 1008.0
-offset_bottom = 668.0
-text = "Click an empty cell to place a tower (50 gold).   SPACE: start wave.   R: restart."
-
-[node name="TokenLabel" type="Label" parent="CanvasLayer" unique_id=2100664063]
-offset_left = 680.0
-offset_top = 12.0
-offset_right = 1008.0
-offset_bottom = 36.0
-text = "TOKENS  0  (Tab = Shop)"
-horizontal_alignment = 2
-
-[node name="TokenLabel_1" type="Label" parent="CanvasLayer" unique_id=1363470760]
+[node name="Camera2D" type="Camera2D" parent="." unique_id=848914125]

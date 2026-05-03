@@ -1,9 +1,5 @@
-# Godot 4+ specific ignores
-.godot/
-/android/
+# Summer Engine agent infrastructure
+.summer/
 
-# Player save state
-token_save.json
-
-# Backup files
-*.bak
+# Summer Engine local-only state (SummerGit, caches, locks)
+.summer/local/
